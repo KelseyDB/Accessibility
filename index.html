@@ -22,7 +22,7 @@
           <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="about.html">About</a></li>
           <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="destinations.html">Destinations</a></li>
           <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="tips.html">Travel Tips</a></li>
-          <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Bucket list</a></li>
+          <li class="md:px-4 md:py-2 hover:text-indigo-400"><a href="photo.html">Photography</a></li>
         </ul>
       </div>
       <div class="order-2 md:order-3">
@@ -37,32 +37,61 @@
   </header>
   <!-- main -->
   <main class="mt-20">
-    <div class="container bg-white mx-auto rounded-md flex flex-row flex-wrap items-center">
-      <div class="text-center basis-1/2 ">
-        <h2 class="text-2xl ">Welcome to Ghoulish Adventures</h2>
+    <article class="container bg-white mx-auto rounded-md flex flex-col md:flex-row flex-wrap items-center">
+      <div class="text-center basis-1/2">
+        <h2 class="text-2xl p-8">Welcome to Ghoulish Adventures</h2>
         <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente impedit autem aspernatur minima optio dignissimos illum animi doloremque reiciendis voluptate modi iure, corporis atque aliquid est temporibus culpa laudantium incidunt et laborum at molestiae exercitationem! Fugiat quam reiciendis temporibus vitae fugit, repellendus cum dolor delectus saepe, quas ratione officiis!</p>
       </div> 
-      <div class="img flex-auto basis-1/2 p-4">
-        <img src="./Images/Main Page/jan-jakub-nanista-z9hvkSDWMIM-unsplash.jpg" alt="">
-      </div>
-      <div class="img flex-auto basis-1/2 p-4">
-        <img src="/Images/Main Page/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg" alt="">
-      </div>
+      <figure role="img" aria-label="A dark setting with a dimly lit haunted house, a dead tree stands in the foreground" class="flex-auto basis-1/2 p-4">
+        <img src="/Images/Main Page/hauntedhouse.jpg" alt="">
+      </figure>
+      <figure role="img" aria-label="A bridge leading to a castle in the fog, the image has a fantasy feel to it" class="flex-auto basis-1/2 p-4">
+        <img src="/Images/Main Page/castle.jpg" alt="">
+      </figure>
       <div class="text-center basis-1/2 p-4">
-        <h2 class="text-2xl mb-5">Welcome to Ghoulish Adventures</h2>
+        <h2 class="text-2xl mb-5 p-8">Find out more information</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sapiente impedit autem aspernatur minima optio dignissimos illum animi doloremque reiciendis voluptate modi iure, corporis atque aliquid est temporibus culpa laudantium incidunt et laborum at molestiae exercitationem! Fugiat quam reiciendis temporibus vitae fugit, repellendus cum dolor delectus saepe, quas ratione officiis!</p>
       </div> 
-    </div>
+    </article>
+    <article class="container bg-white mx-auto rounded-md mt-5">
+      <h2 class="text-center m-8 p-8 text-2xl">Spooky Travel Guides</h2>
+      <div class="flex flex-col md:flex-row items-center gap-4 m-4 justify-center">
+        <div class="max-w-sm rounded overflow-hidden basis-1/3 shadow-lg">
+          <img class="object-cover p-5" src="/Images/Main Page/Ghost.jpg" alt="3 ghosts in a forest clearing">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Ghost hunting for dummies</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2 ">
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>          </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden basis-1/3 shadow-lg">
+          <img class="object-cover p-5" src="/Images/Main Page/ouija.jpg" alt="ouija board used by 2 people">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Communicating with spirits</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>          </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden basis-1/3 shadow-lg">
+          <img class="object-cover p-5" src="/Images/Main Page/forest.jpg" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Surviving haunted forests</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Read more</a>          </div>
+        </div>
+      </div>
+    </article>
   </main>
-
-
-
-
-
-
-
-
-<!-- footer -->
 <!-- copyright -->
   <footer
     class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
