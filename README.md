@@ -18,5 +18,6 @@ It's hosted on Netlify.
 - https://unsplash.com/
 - https://www.dummies.com/article/body-mind-spirit/religion-spirituality/the-paranormal/ghost-hunting-for-dummies-cheat-sheet-266009/
 - https://fonts.google.com/
+- https://icons8.com/
 
 
